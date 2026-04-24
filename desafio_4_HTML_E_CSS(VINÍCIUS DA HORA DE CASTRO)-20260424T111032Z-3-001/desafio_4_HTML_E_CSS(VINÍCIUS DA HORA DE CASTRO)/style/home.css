@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    width: 98%;
+    padding: 0.4% 1% 0% 1%;
+    flex-direction: column;
+}
+
+.carro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 73.3vh;
+    justify-content: center;
+    align-items: center;
+}
+.carro_img {
+    width: auto;
+    padding: 0% 0% 1% 0%;
+}
+
+.carro a {
+    width: 76%;
+    justify-content: center;
+}
+
+.carro_img:hover {
+    transform: scale(1.002);
+    transition: 0.1s;
+}
+
+.aqui_link {
+    font-size: 100%;
+    font-family: montserrat;
+}
+

@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    width: 98%;
+    padding: 0.4% 1% 0% 1%;
+    flex-direction: column;
+}
+
+.video {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.video_link {
+    width: 100%;
+}
+
+table {
+    font-family: montserrat;
+}
+
+input[type=checkbox] {
+    width: 5%;
+    height: 25px;
+}
+
+.carros_nomes {
+    color: #1b357e;
+}
+
+.botao_div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1% 0% 1% 0%;
+}
+
+.botao {
+    display: flex;
+    width: 12%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    background-color: #1b357e;
+    color: white;
+    font-family: montserrat;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    transition: 0.15s;
+}
+
+.botao:hover {
+    background-color: #1351db;
+    cursor: pointer;
+    transform: scale(1.05);
+}
